@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background-color: blueviolet;
+    }
+    header{
+        overflow: hidden;
+        height: 100vh;
+            }
+        .nav-bar{
+        background: rgba(0,0,0,0.7);
+        height: 60px;
+        position: absolute;
+        width: 100%;
+    }
+    .logo{
+        margin: 0 60px;
+        height: 60px;
+        font-style: italic;
+        font-family: poppins;
+        float: left;
+        color:rgb(228, 113, 180) ;
+        font-size: 35px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 10px 10px;
+    }
+    .menu-area {
+        float: right;
+        list-style: none;
+        margin: 20px;
+    }
+    .menu-area li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .menu-area li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 10px;
+        letter-spacing: 2px;
+    }
+    .menu-area li a:hover{
+        color: yellow
+    }
+    
+    
